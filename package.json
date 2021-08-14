@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://pradeepku123.github.io/MoDukhan/",
   "license": "ISC",
+  "homepage": "",
   "devDependencies": {
     "nodemon": "^2.0.12",
     "parcel-bundler": "^1.12.5"
