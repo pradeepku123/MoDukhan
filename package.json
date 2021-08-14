@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "parcel index.html",
-    "build": "parcel build index.html",
-    "deploy": "gh-pages -d dist"
+    "local:build": "parcel build index.html",
+    "prod:deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "https://pradeepku123.github.io/MoDukhan/",
